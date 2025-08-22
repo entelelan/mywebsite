@@ -10,16 +10,12 @@
   <meta charset="utf-8" />
   <title>
     
-        |
-        My blog
-      
-
-    
+      EnteleLAN
 
   </title>
 
   <meta name="generator" content="Hugo 0.148.2"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <meta name="author" content="" />
+  <meta name="author" content="EnteleLAN" />
   <meta
     name="description"
     content=""
@@ -69,10 +65,10 @@
     type="text/css"
   />
   
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
 
   <link rel="canonical" href="http://localhost:1313/" />
   
@@ -107,7 +103,8 @@
 
   
   
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/site-feature-image.png">
   <meta name="twitter:title" content="My blog">
 
 
@@ -118,6 +115,7 @@
   <meta property="og:title" content="My blog">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
+    <meta property="og:image" content="http://localhost:1313/images/site-feature-image.png">
 
 
 
@@ -157,7 +155,7 @@
     <div class="sidebar__introduction">
       <img
         class="sidebar__introduction-profileimage"
-        src="/"
+        src="/images/profile.jpg"
         alt="profile picture"
       />
       
@@ -173,13 +171,49 @@
     </div>
     <ul class="sidebar__list">
       
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.linkedin.com/in/moisesgodinez"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Linkedin"
+            title="Linkedin"
+          >
+            <i class="fa-brands fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.github.com/entelelan"
+            target="_blank"
+            rel="noopener me"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <i class="fa-brands fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:mail@example.com"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fa-solid fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
     </ul>
   </div><footer class="footer footer__sidebar">
   <ul class="footer__list">
     <li class="footer__item">
       &copy;
       
-        
+        EnteleLAN
         2025
       
     </li>
@@ -245,6 +279,21 @@
         
 
       
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/about/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
     </ul>
     <ul class="nav__list nav__list--end">
       
@@ -267,7 +316,28 @@
     "
   >
     <div class="post__content">
-      
+      <!--
+This file is left intentionally empty by default to be backwards compatible with the initial theme setup.
+
+Although the theme has advanced a little bit and it now allows to specify the content on the main page (even if the list of posts/articles is not intended).
+This can be:
+- with the list of posts/articles (default: `mainSections = ["post"]) or
+- without the list of posts/articles (by setting `mainSections = [""]`)
+
+Markdown supported, ie:
+
+```
+# Welcome
+
+- Hugo :rocket:
+- Hugo theme :rocket:
+
+Don't forget to check the README.md file!
+```
+
+Remember that you can also specify a section header for the posts below by configuring the `mainSectionsTitle` parameter in the front matter of this file.
+-->
+
     </div>
 
     
@@ -276,6 +346,42 @@
   
 
   
+  
+    <div
+      class="post 
+        animated fadeInDown
+      "
+    >
+      
+      <div class="post__content">
+        
+          <h3><a href="/post/hello-world/">HELLO WORLD!</a></h3>
+        
+        
+          <p></p>
+        
+        </div>
+
+      
+      <div class="post__footer">
+        <em class="fas fa-calendar-day"></em>
+        <span class="post__footer-date"
+          >
+            
+              22/8/2025
+            
+
+          </span
+        >
+        
+
+        
+          <span><a class="tag" href="/tags/helloworld/">helloworld</a></span>
+
+
+        
+      </div>
+    </div>
   
   <div class="pagination">
     
@@ -288,7 +394,7 @@
     <li class="footer__item">
       &copy;
       
-        
+        EnteleLAN
         2025
       
     </li>
