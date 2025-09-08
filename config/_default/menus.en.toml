@@ -10,6 +10,26 @@
   identifier = "posts"
   url = "/post/"
 
+  [[main]]
+  name = "Links"
+  weight = 300
+  identifier = "links"
+  url = "/links"
+
+  [[main]]
+  name = "Tech Podcasts"
+  weight = 310
+  identifier = "tech podcasts"
+  url = "/tech_podcasts"
+  parent = "links"
+
+  [[main]]
+  name = "Veteran Resources"
+  weight = 320
+  identifier = "veteran resources"
+  url = "/veteran_resources"
+  parent = "links"
+
   #[[main]]
   #name = "Portfolio"
   #weight = 300
