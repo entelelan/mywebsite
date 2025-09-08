@@ -20,7 +20,7 @@ Eligible members of the U.S. military and eligible military spouses are offered 
 Meritorious is an all-in-one SaaS platform making it easier for military-connected professionals, business owners, and veteran friendly organizations to find each other and collaborate while engaging transitioning veterans and military spouses.
 
 [Onward to Opportunity (O2O)](https://ivmf.syracuse.edu/programs/career-training/)  
-A free [IVMF]((https://ivmf.syracuse.edu/) career training program that provides professional certification and employee support services to transitioning members, veterans and military spouses.
+A free [IVMF](https://ivmf.syracuse.edu/) career training program that provides professional certification and employee support services to transitioning members, veterans and military spouses.
 
 [Salesforce Military](https://veterans.my.site.com/s/)  
 Free Salesforce training for military and spouses. Salesforce Military is a Salesforce department for veterans by veterans. We get active military, veterans, and spouses the classes, certifications, and support they need for successful tech careers.
