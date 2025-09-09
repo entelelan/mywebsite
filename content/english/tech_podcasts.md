@@ -1,8 +1,11 @@
-[The Art of Network Engineering](https://artofnetworkengineering.com/)  
+ <a href="https://artofnetworkengineering.com/" target="_blank">The Art of Network Engineering</a>
+ <br>
 A podcast for Network Engineers with a focus on tools, technologies, and talented people through interviews from people in the industry.
 
-[Packet Pushers](https://packetpushers.net/)  
+<a href="https://packetpushers.net/" target="_blank">Packet Pushers</a>
+<br>
 Packet Pushers is a community of IT practitioners & vendors who write, podcast, and help each other as industry professionals. Packet Pushers covers networking as well as cloud and related business technologies.
 
-[Tech Field Day Podcast](https://techfieldday.com/podcast/)  
+<a href="https://techfieldday.com/podcast/" target="_blank">Tech Field Day Podcast</a>
+<br>
 The Tech Field Day Podcast is a weekly discussion of enterprise IT topics featuring a constantly-changing panel of independent technical influencers.

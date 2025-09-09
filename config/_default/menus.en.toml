@@ -11,21 +11,27 @@
   url = "/post/"
 
   [[main]]
-  name = "Links"
+  name = "Certifications"
   weight = 300
+  identifier = "certifications"
+  url = "/certifications/"
+  
+  [[main]]
+  name = "Links"
+  weight = 400
   identifier = "links"
   url = "/links"
 
   [[main]]
   name = "Tech Podcasts"
-  weight = 310
+  weight = 410
   identifier = "tech podcasts"
   url = "/tech_podcasts"
   parent = "links"
 
   [[main]]
   name = "Veteran Resources"
-  weight = 320
+  weight = 420
   identifier = "veteran resources"
   url = "/veteran_resources"
   parent = "links"
@@ -53,13 +59,6 @@
   #identifier = "awards"
   #url = "/awards/"
   #parent = "accomplishments"  
-
-  #[[main]]
-  #name = "Certifications"
-  #weight = 520
-  #identifier = "certifications"
-  #url = "/certifications/"
-  #parent = "accomplishments"
 
   #[[main]]
   #name = "Contact"

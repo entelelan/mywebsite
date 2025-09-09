@@ -6,7 +6,7 @@
     <description>Recent content on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World!</title>
       <link>http://localhost:1313/post/hello-world/</link>
@@ -30,6 +30,17 @@
     </item>
     
     <item>
+      <title>Certifications</title>
+      <link>http://localhost:1313/certifications/</link>
+      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/certifications/</guid>
+      
+        <description>Certifications</description>
+      
+    </item>
+    
+    <item>
       <title>Awards</title>
       <link>http://localhost:1313/awards/</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
@@ -37,17 +48,6 @@
       <guid>http://localhost:1313/awards/</guid>
       
         <description>Hugo Awards, an annual literary award for the best science fiction or fantasy works</description>
-      
-    </item>
-    
-    <item>
-      <title>Certifications</title>
-      <link>http://localhost:1313/certifications/</link>
-      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/certifications/</guid>
-      
-        <description>Hugo Certifications</description>
       
     </item>
     
@@ -96,7 +96,8 @@ Germany&lt;/p&gt;</description>
       
       <guid>http://localhost:1313/tech_podcasts/</guid>
       
-        <description>&lt;p&gt;&lt;a href=&#34;https://artofnetworkengineering.com/&#34;&gt;The Art of Network Engineering&lt;/a&gt;&lt;br&gt;
+        <description>&lt;p&gt;&lt;a href=&#34;https://artofnetworkengineering.com/&#34; target=&#34;_blank&#34;&gt;The Art of Network Engineering&lt;/a&gt;
+&lt;br&gt;
 A podcast for Network Engineers with a focus on tools, technologies, and talented people through interviews from people in the industry.&lt;/p&gt;</description>
       
     </item>
@@ -108,7 +109,9 @@ A podcast for Network Engineers with a focus on tools, technologies, and talente
       
       <guid>http://localhost:1313/veteran_resources/</guid>
       
-        <description>&lt;p&gt;&lt;a href=&#34;https://www.acp-usa.org/&#34;&gt;American Corporate Partners&lt;/a&gt;&lt;br&gt;
+        <description>&lt;!--AMERICAN CORPORATE PARTNERS (ACP)--&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.acp-usa.org/&#34; target=&#34;_blank&#34;&gt;American Corporate Partners (ACP)&lt;/a&gt;
+&lt;br&gt;
 ACP is a national nonprofit organization focused on helping returning veterans and active duty spouses find their next careers through one-on-one mentoring, networking and online career advice.&lt;/p&gt;</description>
       
     </item>
