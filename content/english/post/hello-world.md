@@ -6,6 +6,7 @@ description = "My first post"
 tags = [
     "helloworld",
 ]
+draft = "true"
 +++
 
 Welcome to EnteleLAN - documenting the journey to layer 7 and beyond!
