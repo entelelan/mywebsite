@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://entelelan.github.io/mywebsite/'
 languageCode = 'en-us'
 title = 'EnteleLAN Website'
 theme = 'anatole'
