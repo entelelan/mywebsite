@@ -3,28 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/index/</loc>
+    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/packetlife_cheatsheets/</loc>
+    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/index/</loc>
-    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/my_story/</loc>
-    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/hello-world/</loc>
-    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/helloworld/</loc>
-    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/certifications/</loc>
     <lastmod>2022-09-09T00:00:00+00:00</lastmod>
