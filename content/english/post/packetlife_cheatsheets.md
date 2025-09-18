@@ -47,5 +47,5 @@ Be sure to explore Jeremy's other project, <a href="https://netboxlabs.com/" tar
 <a href="/mywebsite/files/Spanning_Tree.pdf" target="_blank">Spanning Tree</a>  
 <a href="/mywebsite/files/tcpdump.pdf" target="_blank">tcpdump</a>  
 <a href="/mywebsite/files/VLANs.pdf" target="_blank">VLANs</a>  
-<a href="/files/VOIP_Basics.pdf" target="_blank">VoIP Basics</a>  
-<a href="/files/Wireshark_Display_Filters.pdf" target="_blank">Wireshark Display Filters</a>
+<a href="/mywebsite/files/VOIP_Basics.pdf" target="_blank">VoIP Basics</a>  
+<a href="/mywebsite/files/Wireshark_Display_Filters.pdf" target="_blank">Wireshark Display Filters</a>
