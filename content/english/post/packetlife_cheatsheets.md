@@ -19,7 +19,7 @@ Be sure to explore Jeremy's other project, <a href="https://netboxlabs.com/" tar
 
 ### Cheat Sheets
 
-<a href="../../../static/files/BGP.pdf" target="_blank">BGP</a>  
+<a href="files/BGP.pdf" target="_blank">BGP</a>  
 <a href="/files/Cisco_IOS_Versions.pdf" target="_blank">Cisco IOS Versions</a>  
 <a href="/files/common_ports.pdf" target="_blank">Common Ports</a>  
 <a href="/files/EIGRP.pdf" target="_blank">EIGRP</a>  
