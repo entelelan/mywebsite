@@ -3,18 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/mywebsite/</loc>
-    <lastmod>2025-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/mywebsite/post/dns_cloudflare/</loc>
+    <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/mywebsite/tags/index/</loc>
-    <lastmod>2025-09-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/mywebsite/post/packetlife_cheatsheets/</loc>
-    <lastmod>2025-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/mywebsite/post/</loc>
-    <lastmod>2025-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/mywebsite/tags/</loc>
+    <lastmod>2025-09-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/mywebsite/post/packetlife_cheatsheets/</loc>
     <lastmod>2025-09-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/mywebsite/about/</loc>
