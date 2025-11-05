@@ -402,3 +402,47 @@ transport input ssh
 transport output ssh
 end
 copy running-config startup-config
+
+
+| RU # | Device Name | Device Type | Model | Serial # | MAC Address | Asset Tag # | 
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | Empty | | | | | | |
+| 2 | PatchPanel | FiberPatchPanel | FIB123456789 | FIB123456789 | N/A | HLNAMTHQ-202500 |
+| 3 | PatchPanel | CopperPatchPanel | CPP123456789 | CPP123456789 | N/A	HLNAMTHQ-202501 |
+| 4 | Empty | | | | | | |
+| 5 | HLNAMTHQ1CS | Layer 3 Switch | WS-C3560-24PS-E | CAT1037RJF7 |
+| 6 | Empty  | | | | | | |
+| 7 | CableTray |
+| 8 | Empty | | | | | | |
+| 9 | HLNAMTHQ2CS | Layer 3 Switch | WS-C3560-24PS-E | CAT1037RJF7 |
+| 10 | Empty | | | | | | |
+| 11 | CableTray |
+| 12 | Empty | | | | | | |
+| 13 | PDU | Power Distribution | AP8858NA3 | AP8858NA3 |
+| 14 | Empty | | | | | | |
+| 15 | HLNAMTHQ1CR | Internet Router | Cisco2901/K9 | FTX1524XHNH
+| 16 | Empty | | | | | | |
+| 17/18 | HLNAMTHQ1VR | Voice Router | Cisco2911/K9 | FTX1524VAXC |
+| 19/24 | Empty | | | | | | |
+| 25/29 | HLNAMTHQSRV1 | Server | UCS-C220-M4 | FCH2047V1N2 |
+| 30 | Empty | | | | | | |
+| 31 | PDU | PowerDistribution | AP8858NA3 | AP8858NA3 |
+| 32 | Empty | | | | | | |
+| 33 | PDU | PowerDistribution | AP8858NA3 | AP8858NA3 |
+| 34 | Empty | | | | | | |
+| 35 | Empty | | | | | | |
+| 36 | Empty | | | | | | |
+| 37 | Empty | | | | | | |
+| 38 | Empty | | | | | | |
+| 39 | Empty | | | | | | |
+| 40/41 | UPSMDFR1 | UPS | SMTL750RM2UCUS | SMTL750RM2UCUS |
+| 42 | Empty | | | | | | |
+
+
+
+
+
+
+Cabling Setup
+| Cable ID | Source Device | Source Port | Destination Device | Destination Port | Cable Type | Cable Length | Color | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |

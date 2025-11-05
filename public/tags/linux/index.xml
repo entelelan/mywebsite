@@ -2,17 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on My blog</title>
-    <link>http://localhost:1313/tags/linux/</link>
+    <link>http://localhost:1313/mywebsite/tags/linux/</link>
     <description>Recent content in Linux on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Linux File System &amp; Permissions</title>
-      <link>http://localhost:1313/post/linux_filesytemandpermissions/</link>
+      <title>Configuring a DHCP Server</title>
+      <link>http://localhost:1313/mywebsite/post/configuring_linux_dhcpserver/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/linux_filesytemandpermissions/</guid>
+      <guid>http://localhost:1313/mywebsite/post/configuring_linux_dhcpserver/</guid>
+      
+        <description>Ubuntu DHCP Server</description>
+      
+    </item>
+    
+    <item>
+      <title>Configuring an IP Address in Linux</title>
+      <link>http://localhost:1313/mywebsite/post/configuring_ip_linux/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mywebsite/post/configuring_ip_linux/</guid>
+      
+        <description>linux ip config</description>
+      
+    </item>
+    
+    <item>
+      <title>Junos Device Config</title>
+      <link>http://localhost:1313/mywebsite/post/junos_config/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mywebsite/post/junos_config/</guid>
+      
+        <description>junos device config</description>
+      
+    </item>
+    
+    <item>
+      <title>Linux File System &amp; Permissions</title>
+      <link>http://localhost:1313/mywebsite/post/linux_filesytemandpermissions/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mywebsite/post/linux_filesytemandpermissions/</guid>
       
         <description>linux file system &amp; permissions</description>
       
@@ -20,10 +53,10 @@
     
     <item>
       <title>Routing vs. Routed Protocols</title>
-      <link>http://localhost:1313/post/routing_vs_routed_protocols/</link>
+      <link>http://localhost:1313/mywebsite/post/routing_vs_routed_protocols/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/routing_vs_routed_protocols/</guid>
+      <guid>http://localhost:1313/mywebsite/post/routing_vs_routed_protocols/</guid>
       
         <description>Routing vs. Routed Protocols</description>
       
@@ -31,10 +64,10 @@
     
     <item>
       <title>Untitled</title>
-      <link>http://localhost:1313/post/project/</link>
+      <link>http://localhost:1313/mywebsite/post/project/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/project/</guid>
+      <guid>http://localhost:1313/mywebsite/post/project/</guid>
       
         <description>Untitled</description>
       

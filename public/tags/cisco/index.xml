@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cisco on My blog</title>
-    <link>http://localhost:1313/tags/cisco/</link>
+    <link>http://localhost:1313/mywebsite/tags/cisco/</link>
     <description>Recent content in Cisco on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basic Cisco Router Configuration</title>
-      <link>http://localhost:1313/post/basic_router_config_cisco/</link>
+      <link>http://localhost:1313/mywebsite/post/basic_router_config_cisco/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/basic_router_config_cisco/</guid>
+      <guid>http://localhost:1313/mywebsite/post/basic_router_config_cisco/</guid>
       
         <description>Basic Cisco Router Configuration</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Basic Cisco Switch Configuration</title>
-      <link>http://localhost:1313/post/basic_switch_config_cisco/</link>
+      <link>http://localhost:1313/mywebsite/post/basic_switch_config_cisco/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/basic_switch_config_cisco/</guid>
+      <guid>http://localhost:1313/mywebsite/post/basic_switch_config_cisco/</guid>
       
         <description>Basic Cisco Switch Configuration</description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>Basic Cisco VoIP Configuration</title>
-      <link>http://localhost:1313/post/basic_voip_config_cisco/</link>
+      <link>http://localhost:1313/mywebsite/post/basic_voip_config_cisco/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/basic_voip_config_cisco/</guid>
+      <guid>http://localhost:1313/mywebsite/post/basic_voip_config_cisco/</guid>
       
         <description>Basic Cisco VoIP Configuration</description>
       
@@ -42,12 +42,23 @@
     
     <item>
       <title>Connect to the Console Port</title>
-      <link>http://localhost:1313/post/connect_to_the_console_port/</link>
+      <link>http://localhost:1313/mywebsite/post/connect_to_the_console_port/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/connect_to_the_console_port/</guid>
+      <guid>http://localhost:1313/mywebsite/post/connect_to_the_console_port/</guid>
       
         <description>Connect to the Console Port</description>
+      
+    </item>
+    
+    <item>
+      <title>Self-Analysis Questionnaire for Personal Inventory</title>
+      <link>http://localhost:1313/mywebsite/post/new_post/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mywebsite/post/new_post/</guid>
+      
+        <description>Self-Analysis Questionnaire for Personal Inventory</description>
       
     </item>
     

@@ -6,6 +6,10 @@ aliases = ["certifications"]
 author = "EnteleLAN"
 +++
 
+<!---
+<a href="https://www.credly.com/users/moises-godinez/badges#credly" target="_blank">Credly Badge Wallet</a>
+--->
+<a href="https://www.credly.com/badges/af22decf-39d7-4433-97b6-312b701c83d4" target="_blank">Juniper Networks Certified Associate</a>
 <a href="https://www.credly.com/badges/6eab8ae5-4bf1-4c2d-a68f-70b89b74f566" target="_blank">Cisco Certified Network Associate (CCNA)</a>
 <br>
 <a href="https://cs.lpi.org/caf/Xamman/certification/verify/LPI000600912/d8fecvn7x5" target="_blank">Linux Essentials</a>
