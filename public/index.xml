@@ -5,8 +5,19 @@
     <link>http://localhost:1313/mywebsite/</link>
     <description>Recent content on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal Audit</title>
+      <link>http://localhost:1313/mywebsite/post/personal_audit/</link>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mywebsite/post/personal_audit/</guid>
+      
+        <description>Personal Audit</description>
+      
+    </item>
+    
     <item>
       <title>Cloudflare - helping build a better Internet</title>
       <link>http://localhost:1313/mywebsite/post/dns_cloudflare/</link>

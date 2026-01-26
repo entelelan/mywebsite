@@ -18,6 +18,11 @@ As part of Fortinet's Education Outreach program, the Fortinet Veterans program 
 <br>
 Hire Heroes USA helps the U.S. servicemen and women, and their spouses, to achieve success via a rewarding career path by providing free job search assistance.
 
+<!--IBM SKILLSBUILD PROGRAM-->
+<a href="https://www.va.gov/education/other-va-education-benefits/ibm-skillsbuild-program/?utm_source=middle&utm_medium=email&utm_campaign=VetResources&utm_id=21JAN2026" target="_blank">IBM SkillsBuild Program</a>
+<br>
+The IBM SkillsBuild program offers more than 1,000 free online courses to help you start or advance your career. These courses are for both beginners and advanced learners. SkillsBuild offers courses to help you find a job in fields like data analytics, cybersecurity, artificial intelligence (AI), cloud computing, and information technology (IT) support. If you're at least 18 years old, you can take free online courses through SkillsBuild if one of these describes you: Veteran, Active-duty service member, Member of the National Guard or Reserve, Spouse of a Veteran, Child of a Veteran, Caregiver of a Veteran. You can create an online account on the IBM <a href="https://sb-auth.skillsbuild.org/signup?ngo-id=0273&mgr=1388711REG&mgr2=1388710REG" target="_blank">SkillsBuild website</a>
+
 <!--INSTITUTE FOR VETERANS & MILITARY FAMILIES (IVMF)-->
 <a href="https://ivmf.syracuse.edu/" target="_blank">Institute for Veterans & Military Families (IVMF)</a>
 <br>

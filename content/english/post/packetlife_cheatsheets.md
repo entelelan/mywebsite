@@ -49,3 +49,15 @@ Be sure to explore Jeremy's other project, <a href="https://netboxlabs.com/" tar
 <a href="/mywebsite/files/VLANs.pdf" target="_blank">VLANs</a>  
 <a href="/mywebsite/files/VOIP_Basics.pdf" target="_blank">VoIP Basics</a>  
 <a href="/mywebsite/files/Wireshark_Display_Filters.pdf" target="_blank">Wireshark Display Filters</a>
+
+<div class="commentbox"></div>
+
+<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+<script>
+  commentBox('5668915749322752-proj', {
+    backgroundColor: 'transparent',
+    textColor: '#ffffff',
+    subtextColor: '#ffffff',
+    sortOrder: 'newest'
+  });
+</script>

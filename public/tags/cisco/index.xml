@@ -5,52 +5,8 @@
     <link>http://localhost:1313/mywebsite/tags/cisco/</link>
     <description>Recent content in Cisco on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Basic Cisco Router Configuration</title>
-      <link>http://localhost:1313/mywebsite/post/basic_router_config_cisco/</link>
-      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/post/basic_router_config_cisco/</guid>
-      
-        <description>Basic Cisco Router Configuration</description>
-      
-    </item>
-    
-    <item>
-      <title>Basic Cisco Switch Configuration</title>
-      <link>http://localhost:1313/mywebsite/post/basic_switch_config_cisco/</link>
-      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/post/basic_switch_config_cisco/</guid>
-      
-        <description>Basic Cisco Switch Configuration</description>
-      
-    </item>
-    
-    <item>
-      <title>Basic Cisco VoIP Configuration</title>
-      <link>http://localhost:1313/mywebsite/post/basic_voip_config_cisco/</link>
-      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/post/basic_voip_config_cisco/</guid>
-      
-        <description>Basic Cisco VoIP Configuration</description>
-      
-    </item>
-    
-    <item>
-      <title>Connect to the Console Port</title>
-      <link>http://localhost:1313/mywebsite/post/connect_to_the_console_port/</link>
-      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/post/connect_to_the_console_port/</guid>
-      
-        <description>Connect to the Console Port</description>
-      
-    </item>
-    
     <item>
       <title>Self-Analysis Questionnaire for Personal Inventory</title>
       <link>http://localhost:1313/mywebsite/post/new_post/</link>
