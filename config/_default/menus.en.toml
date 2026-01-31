@@ -49,10 +49,10 @@
   url = "/portfolio"
 
   [[main]]
-  name = "HomeLab Network Project - Version 1"
+  name = "Home Lab Network Project - Version 1"
   weight = 220
-  identifier = "homelab network project - version 1"
-  url = "/home_lab_network_project_v1"
+  identifier = "home lab network project - version 1"
+  url = "/portfolio/home_lab_network_project/v1"
   parent = "portfolio"
 
   #[[main]]

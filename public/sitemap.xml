@@ -29,6 +29,12 @@
     <loc>http://localhost:1313/mywebsite/certifications/</loc>
     <lastmod>2022-09-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/mywebsite/portfolio/home_lab_network_project/v1/</loc>
+    <lastmod>2022-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/mywebsite/portfolio/</loc>
+    <lastmod>2022-09-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/mywebsite/tech_podcasts/</loc>
     <lastmod>2022-09-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -46,11 +52,7 @@
   </url><url>
     <loc>http://localhost:1313/mywebsite/imprint/</loc>
   </url><url>
-    <loc>http://localhost:1313/mywebsite/portfolio/home_lab_network_project_v1/</loc>
-  </url><url>
     <loc>http://localhost:1313/mywebsite/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/mywebsite/portfolio/</loc>
   </url><url>
     <loc>http://localhost:1313/mywebsite/series/</loc>
   </url>

@@ -63,6 +63,17 @@
     </item>
     
     <item>
+      <title>Home Lab Network Project – Version 1</title>
+      <link>http://localhost:1313/mywebsite/portfolio/home_lab_network_project/v1/</link>
+      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mywebsite/portfolio/home_lab_network_project/v1/</guid>
+      
+        <description>Home Lab Network Project – Version 1</description>
+      
+    </item>
+    
+    <item>
       <title>Tech Podcasts</title>
       <link>http://localhost:1313/mywebsite/tech_podcasts/</link>
       <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
@@ -130,19 +141,6 @@
 Anatole Street 10&lt;br&gt;
 2016 GoHugo&lt;br&gt;
 Germany&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/mywebsite/portfolio/home_lab_network_project_v1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/portfolio/home_lab_network_project_v1/</guid>
-      
-        <description>&lt;h1 id=&#34;homelab-network-project--version-1&#34;&gt;HomeLab Network Project – Version 1&lt;/h1&gt;
-&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;
-&lt;p&gt;This project documents the design, implementation, and validation of a small enterprise-style network built in a home lab environment. The lab is intentionally structured to reflect real-world network engineering practices while serving as a hands-on platform for reinforcing core networking concepts. Although implemented in a home lab, the network design emphasizes professional standards, clear documentation, and iterative improvement. All configurations are validated using a combination of physical Cisco hardware and Cisco Packet Tracer to support repeatability, experimentation, and long-term documentation. test&lt;/p&gt;</description>
       
     </item>
     
