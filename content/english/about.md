@@ -1,7 +1,8 @@
 +++
-title = ""
+title = "About"
 description = "About"
 date = "2025-09-09"
+aliases = ["about"]
 author = "EnteleLAN"
 +++
 

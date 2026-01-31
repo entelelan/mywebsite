@@ -1,3 +1,11 @@
+ +++
+title = "Tech Podcasts"
+description = "Tech Podcasts"
+date = "2022-09-09"
+aliases = ["Tech Podcasts"]
+author = "EnteleLAN"
++++
+
  <a href="https://artofnetworkengineering.com/" target="_blank">The Art of Network Engineering</a>
  <br>
 A podcast for Network Engineers with a focus on tools, technologies, and talented people through interviews from people in the industry.

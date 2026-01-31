@@ -66,10 +66,10 @@ icon = "fa-brands fa-linkedin"
 title = "Linkedin"
 url = "https://www.linkedin.com/in/moisesgodinez"
 
-#[[socialIcons]]
-#icon = "fa-brands fa-github"
-#title = "GitHub"
-#url = "https://www.github.com/entelelan"
+[[socialIcons]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://www.github.com/entelelan"
 
 #[[socialIcons]]
 #icon = "fa-brands fa-instagram"

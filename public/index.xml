@@ -41,7 +41,7 @@
     </item>
     
     <item>
-      <title></title>
+      <title>About</title>
       <link>http://localhost:1313/mywebsite/about/</link>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
       
@@ -59,6 +59,28 @@
       <guid>http://localhost:1313/mywebsite/certifications/</guid>
       
         <description>Certifications</description>
+      
+    </item>
+    
+    <item>
+      <title>Tech Podcasts</title>
+      <link>http://localhost:1313/mywebsite/tech_podcasts/</link>
+      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mywebsite/tech_podcasts/</guid>
+      
+        <description>Tech Podcasts</description>
+      
+    </item>
+    
+    <item>
+      <title>Veteran Resources</title>
+      <link>http://localhost:1313/mywebsite/veteran_resources/</link>
+      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mywebsite/veteran_resources/</guid>
+      
+        <description>Veteran Resources</description>
       
     </item>
     
@@ -108,33 +130,6 @@
 Anatole Street 10&lt;br&gt;
 2016 GoHugo&lt;br&gt;
 Germany&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/mywebsite/tech_podcasts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/tech_podcasts/</guid>
-      
-        <description>&lt;p&gt;&lt;a href=&#34;https://artofnetworkengineering.com/&#34; target=&#34;_blank&#34;&gt;The Art of Network Engineering&lt;/a&gt;
-&lt;br&gt;
-A podcast for Network Engineers with a focus on tools, technologies, and talented people through interviews from people in the industry.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/mywebsite/veteran_resources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/veteran_resources/</guid>
-      
-        <description>&lt;!--AMERICAN CORPORATE PARTNERS (ACP)--&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.acp-usa.org/&#34; target=&#34;_blank&#34;&gt;American Corporate Partners (ACP)&lt;/a&gt;
-&lt;br&gt;
-ACP is a national nonprofit organization focused on helping returning veterans and active duty spouses find their next careers through one-on-one mentoring, networking and online career advice.&lt;/p&gt;</description>
       
     </item>
     

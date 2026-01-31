@@ -1,3 +1,11 @@
+ +++
+title = "Veteran Resources"
+description = "Veteran Resources"
+date = "2022-09-09"
+aliases = ["Veteran Resources"]
+author = "EnteleLAN"
++++
+
 <!--AMERICAN CORPORATE PARTNERS (ACP)-->
 <a href="https://www.acp-usa.org/" target="_blank">American Corporate Partners (ACP)</a>
 <br>

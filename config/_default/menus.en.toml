@@ -42,11 +42,18 @@
   url = "/veteran_resources"
   parent = "links"
 
-  #[[main]]
-  #name = "Portfolio"
-  #weight = 300
-  #identifier = "portfolio"
-  #url = "/portfolio/"
+  [[main]]
+  name = "Portfolio"
+  weight = 210
+  identifier = "portfolio"
+  url = "/portfolio"
+
+  [[main]]
+  name = "HomeLab Network Project - Version 1"
+  weight = 220
+  identifier = "homelab network project - version 1"
+  url = "/home_lab_network_project_v1"
+  parent = "portfolio"
 
   #[[main]]
   #name = "Accomplishments"
