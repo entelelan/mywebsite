@@ -1,6 +1,6 @@
 # HomeLab Network Project – Version 1
 ## Project Overview
-This project documents the design, implementation, and validation of a small enterprise-style network built in a home lab environment. The lab is intentionally structured to reflect real-world network engineering practices while serving as a hands-on platform for reinforcing core networking concepts. Although implemented in a home lab, the network design emphasizes professional standards, clear documentation, and iterative improvement. All configurations are validated using a combination of physical Cisco hardware and Cisco Packet Tracer to support repeatability, experimentation, and long-term documentation.
+This project documents the design, implementation, and validation of a small enterprise-style network built in a home lab environment. The lab is intentionally structured to reflect real-world network engineering practices while serving as a hands-on platform for reinforcing core networking concepts. Although implemented in a home lab, the network design emphasizes professional standards, clear documentation, and iterative improvement. All configurations are validated using a combination of physical Cisco hardware and Cisco Packet Tracer to support repeatability, experimentation, and long-term documentation. test
 
 ## Project Objectives
 The primary objectives of this project are to:
