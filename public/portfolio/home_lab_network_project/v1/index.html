@@ -191,7 +191,7 @@
 
     ,
         "url" : "http:\/\/localhost:1313\/mywebsite\/portfolio\/home_lab_network_project\/v1\/",
-        "wordCount" : "956",
+        "wordCount" : "2",
         "genre" : [ ],
         "keywords" : [ ]
     }
@@ -470,539 +470,185 @@
       
         <h1>Home Lab Network Project – Version 1</h1>
       
-      <p>Topology Diagram<br>
-Cisco Packet Tracer Lab student<br>
-Cisco Packet Tracer Lab complete<br>
-Configuration &amp; Notes<br>
-Testing results</p>
-<hr>
-<h2 id="project-overview">Project Overview</h2>
-<p>This project documents the design, implementation, and validation of an enterprise-style network in a home lab environment alongside a Cisco Packet Tracer simulation for learning and documentation purposes. The purpose of this lab is to practice and reinforce networking concepts, while also creating a long-term technical portfolio that demonstrates practical networking skills.</p>
-<p>This Version 1 implementation focuses on establishing a stable, functional LAN with routing, switching, wireless access, and basic VoIP services. This project is documented incrementally through milestones. Each milestone represents a stable checkpoint rather than a continuous stream of changes. Each milestone includes design intent, implementation details, validation steps, and lessons learned.</p>
-<hr>
-<h2 id="project-objectives">Project Objectives</h2>
-<p>The primary objectives of this project are to:</p>
-<ul>
-<li>Design and implement a functional routed and switched network.</li>
-<li>Practice VLAN segmentation and inter-VLAN routing.</li>
-<li>Establish basic Internet edge connectivity and NAT.</li>
-<li>Integrate wireless and VoIP into the LAN design.</li>
-<li>Document design decisions, configurations, and validation steps.</li>
-<li>Create a foundation that can be expanded into advanced networking concepts and multivendor studies.</li>
-</ul>
-<hr>
-<h2 id="design-scope-version-1">Design Scope (Version 1)</h2>
-<p>Version 1 of this project focuses on foundational connectivity and services. The scope includes:</p>
-<ul>
-<li>Router-on-a-stick inter-VLAN routing.</li>
-<li>Core and access layer switching.</li>
-<li>VLAN segmentation for data, voice, management, and unused ports.</li>
-<li>DHCP and basic IP services.</li>
-<li>Internet edge routing with NAT.</li>
-<li>Wireless LAN integration.</li>
-<li>Basic VoIP phone registration and call flow simulation.</li>
-<li>Advanced redundancy, dynamic routing, centralized services, and security hardening are intentionally deferred to later versions of the project.</li>
-</ul>
-<hr>
-<h2 id="network-design">Network Design</h2>
-<h3 id="tools--platforms">Tools &amp; Platforms</h3>
-<ul>
-<li>Cisco 2811, 1921 Integrated Services Routers.</li>
-<li>Cisco Catalyst 2960 and 3560 switches.</li>
-<li>Cisco IP Phone.</li>
-<li>Cisco Packet Tracer for network simulation. The physical lab topology is mirrored in Cisco Packet Tracer to validate configurations before deployment and provide downloadable lab files for reference to support documentation. Packet Tracer artifacts complement, but do not replace, hands-on hardware experience.</li>
-<li>Physical and simulated environments are kept as closely aligned as possible.</li>
-</ul>
-<h3 id="bay-face-layout--rack-elevation">Bay Face Layout / Rack Elevation</h3>
-<table>
-  <thead>
-      <tr>
-          <th>RU #</th>
-          <th>Device Name</th>
-          <th>Device Type</th>
-          <th>Model</th>
-          <th>Serial #</th>
-          <th>MAC Address</th>
-          <th>Asset Tag #</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>1</td>
-          <td>Empty</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>2</td>
-          <td>PatchPanel</td>
-          <td>FiberPatchPanel</td>
-          <td>FIB123456789</td>
-          <td>FIB123456789</td>
-          <td>N/A</td>
-          <td>HLNAMTHQ-202500</td>
-      </tr>
-      <tr>
-          <td>3</td>
-          <td>PatchPanel</td>
-          <td>CopperPatchPanel</td>
-          <td>CPP123456789</td>
-          <td>CPP123456789</td>
-          <td>N/A HLNAMTHQ-202501</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>4</td>
-          <td>Empty</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>5</td>
-          <td>HLNAMTHQ1CS</td>
-          <td>Layer 3 Switch</td>
-          <td>WS-C3560-24PS-E</td>
-          <td>CAT1037RJF7</td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>6</td>
-          <td>Empty</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>7</td>
-          <td>Empty</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>8-10</td>
-          <td>Empty</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-  </tbody>
-</table>
-<h3 id="cabling-setup">Cabling Setup</h3>
-<table>
-  <thead>
-      <tr>
-          <th>Cable ID</th>
-          <th>Source Device</th>
-          <th>Source Port</th>
-          <th>Destination Device</th>
-          <th>Destination Port</th>
-          <th>Cable Type</th>
-          <th>Cable Length</th>
-          <th>Color</th>
-          <th>Notes</th>
-      </tr>
-  </thead>
-  <tbody>
-  </tbody>
-</table>
-<h3 id="device-layout">Device Layout</h3>
-<h4 id="austtxhl1cr">AUSTTXHL1CR</h4>
-<table>
-  <thead>
-      <tr>
-          <th>Device Name</th>
-          <th>Model</th>
-          <th>Device Type</th>
-          <th>Location</th>
-          <th>IOS</th>
-          <th>Flash</th>
-          <th>License</th>
-          <th>Serial Number</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>YESTMTDR1CR</td>
-          <td>ISR 2911</td>
-          <td>Internet Router</td>
-          <td>MDF Bldg. A Main Floor Rm. 100</td>
-          <td>Cisco IOS Software, Version 15.1(4)M4</td>
-          <td>flash0:c2900-universalk9-mz.SPA.151-1.M4.bin</td>
-          <td>ipbasek9 uck9</td>
-          <td>FTX1524X00B-</td>
-      </tr>
-  </tbody>
-</table>
-<table>
-  <thead>
-      <tr>
-          <th>Interface</th>
-          <th>Description</th>
-          <th>IPv4 Address</th>
-          <th>Default Gateway</th>
-          <th>IPv6 Address</th>
-          <th>Default Gateway</th>
-          <th>MAC Address</th>
-          <th>Routing</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>G0/0</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-      </tr>
-      <tr>
-          <td>G0/1</td>
-          <td>Router-on-a-stick to YESTMTDR1AS interface G0/1</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-      </tr>
-      <tr>
-          <td>G0/1.10</td>
-          <td>Sub-Interface for Data VLAN 10</td>
-          <td>10.10.10.0/24</td>
-          <td>10.10.10.1</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-      </tr>
-      <tr>
-          <td>G0/1.20</td>
-          <td>Sub-Interface for Voice VLAN 20</td>
-          <td>10.10.20.0/24</td>
-          <td>10.10.20.1</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-      </tr>
-      <tr>
-          <td>G0/1.88</td>
-          <td>Sub-Interface for Native VLAN 88</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-      </tr>
-      <tr>
-          <td>G0/2</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-      </tr>
-      <tr>
-          <td>G0/0/0</td>
-          <td>Link to ISP</td>
-          <td>200.100.10.1/30</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-      </tr>
-  </tbody>
-</table>
-<h4 id="austtxhl1xs">AUSTTXHL1XS</h4>
-<table>
-  <thead>
-      <tr>
-          <th>Device Name</th>
-          <th>Model</th>
-          <th>Device Type</th>
-          <th>Location</th>
-          <th>IOS</th>
-          <th>Flash</th>
-          <th>License</th>
-          <th>Serial Number</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>YESTMTDR1AS</td>
-          <td>Catalyst 2960</td>
-          <td>LAN Access Switch</td>
-          <td>IDF Bldg. A Floor 2 Rm. 200</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-  </tbody>
-</table>
+      <center>
+<h1 id="coming-soon">COMING SOON</h1>
+</center>
+<!---
+Topology Diagram\
+Cisco Packet Tracer Lab student\
+Cisco Packet Tracer Lab complete\
+Configuration & Notes\
+Testing results
+
+---
+
+## Project Overview
+This project documents the design, implementation, and validation of an enterprise-style network in a home lab environment alongside a Cisco Packet Tracer simulation for learning and documentation purposes. The purpose of this lab is to practice and reinforce networking concepts, while also creating a long-term technical portfolio that demonstrates practical networking skills.
+
+This Version 1 implementation focuses on establishing a stable, functional LAN with routing, switching, wireless access, and basic VoIP services. This project is documented incrementally through milestones. Each milestone represents a stable checkpoint rather than a continuous stream of changes. Each milestone includes design intent, implementation details, validation steps, and lessons learned.
+
+---
+
+## Project Objectives
+The primary objectives of this project are to:
+* Design and implement a functional routed and switched network.
+* Practice VLAN segmentation and inter-VLAN routing.
+* Establish basic Internet edge connectivity and NAT.
+* Integrate wireless and VoIP into the LAN design.
+* Document design decisions, configurations, and validation steps.
+* Create a foundation that can be expanded into advanced networking concepts and multivendor studies.
+
+---
+
+## Design Scope (Version 1)
+Version 1 of this project focuses on foundational connectivity and services. The scope includes:
+* Router-on-a-stick inter-VLAN routing.
+* Core and access layer switching.
+* VLAN segmentation for data, voice, management, and unused ports.
+* DHCP and basic IP services.
+* Internet edge routing with NAT.
+* Wireless LAN integration.
+* Basic VoIP phone registration and call flow simulation.
+* Advanced redundancy, dynamic routing, centralized services, and security hardening are intentionally deferred to later versions of the project.
+
+---
+
+## Network Design
+### Tools & Platforms
+* Cisco 2811, 1921 Integrated Services Routers.
+* Cisco Catalyst 2960 and 3560 switches.
+* Cisco IP Phone.
+* Cisco Packet Tracer for network simulation. The physical lab topology is mirrored in Cisco Packet Tracer to validate configurations before deployment and provide downloadable lab files for reference to support documentation. Packet Tracer artifacts complement, but do not replace, hands-on hardware experience.
+* Physical and simulated environments are kept as closely aligned as possible.
+
+### Bay Face Layout / Rack Elevation
+| RU # | Device Name | Device Type | Model | Serial # | MAC Address | Asset Tag # | 
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | Empty | | | | | | |
+| 2 | PatchPanel | FiberPatchPanel | FIB123456789 | FIB123456789 | N/A | HLNAMTHQ-202500 |
+| 3 | PatchPanel | CopperPatchPanel | CPP123456789 | CPP123456789 | N/A HLNAMTHQ-202501 |
+| 4 | Empty | | | | | | |
+| 5 | HLNAMTHQ1CS | Layer 3 Switch | WS-C3560-24PS-E | CAT1037RJF7 |
+| 6 | Empty | | | | | | |
+| 7 | Empty | | | | | | |
+| 8-10 | Empty |
+
+### Cabling Setup
+| Cable ID | Source Device | Source Port | Destination Device | Destination Port | Cable Type | Cable Length | Color | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+### Device Layout
+#### AUSTTXHL1CR
+| Device Name | Model | Device Type | Location | IOS | Flash | License | Serial Number |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| YESTMTDR1CR | ISR 2911 | Internet Router | MDF Bldg. A Main Floor Rm. 100 | Cisco IOS Software, Version 15.1(4)M4 | flash0:c2900-universalk9-mz.SPA.151-1.M4.bin | ipbasek9 uck9 | FTX1524X00B- |
+
+| Interface | Description | IPv4 Address | Default Gateway | IPv6 Address | Default Gateway | MAC Address | Routing |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| G0/0 | - | - | - | - | - | - | - |
+| G0/1 | Router-on-a-stick to YESTMTDR1AS interface G0/1 | - | - | - | - | - | - |
+| G0/1.10 | Sub-Interface for Data VLAN 10 | 10.10.10.0/24 | 10.10.10.1 | - | - | - | - |
+| G0/1.20 | Sub-Interface for Voice VLAN 20 | 10.10.20.0/24 | 10.10.20.1 | - | - | - | - |
+| G0/1.88 | Sub-Interface for Native VLAN 88 | - | - | - | - | - | - |
+| G0/2 | - | - | - | - | - | - | - |
+| G0/0/0 | Link to ISP | 200.100.10.1/30 | - | - | - | - | - |
+
+#### AUSTTXHL1XS
+| Device Name | Model | Device Type | Location | IOS | Flash | License | Serial Number |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | --- |
+| YESTMTDR1AS | Catalyst 2960 | LAN Access Switch | IDF Bldg. A Floor 2 Rm. 200
+
 <br>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: center">Interface</th>
-          <th style="text-align: center">Description</th>
-          <th style="text-align: center">Switchport Type</th>
-          <th style="text-align: center">VLAN</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center">F0/1</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/2</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/3</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/4</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/5</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/6</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/7</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/8</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/9</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/10</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/11</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/12</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/13</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/14</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/15</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/16</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/17</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/18</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/19</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/20</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/21</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/22</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/23</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">F0/24</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">G0/1</td>
-          <td style="text-align: center">Trunk to YESTMTDR1CR G0/1</td>
-          <td style="text-align: center">Trunk</td>
-          <td style="text-align: center">88</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">G0/2</td>
-          <td style="text-align: center">***NOT IN USE***</td>
-          <td style="text-align: center">Access</td>
-          <td style="text-align: center">404</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">SVI 99</td>
-          <td style="text-align: center">Remote management</td>
-          <td style="text-align: center">-</td>
-          <td style="text-align: center">-</td>
-      </tr>
-  </tbody>
-</table>
-<h3 id="vlan-segmentation">VLAN Segmentation</h3>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: center">VLAN ID</th>
-          <th style="text-align: center">Name</th>
-          <th style="text-align: center">Purpose</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center">10</td>
-          <td style="text-align: center">DATA</td>
-          <td style="text-align: center">End-user wired &amp; wireless clients</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">20</td>
-          <td style="text-align: center">VOICE</td>
-          <td style="text-align: center">VoIP services</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">99</td>
-          <td style="text-align: center">MGMT</td>
-          <td style="text-align: center">Network device management</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">88</td>
-          <td style="text-align: center">NATIVE</td>
-          <td style="text-align: center">Native VLAN for trunk links</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">404</td>
-          <td style="text-align: center">INACTIVE</td>
-          <td style="text-align: center">Administratively disabled switch ports</td>
-      </tr>
-  </tbody>
-</table>
-<h3 id="ip-addressing">IP Addressing</h3>
-<ul>
-<li>Internal LAN networks use private IPv4 addressing from the 192.168.0.0/16 range. Individual VLANs are allocated discrete subnets for simplicity and clarity.</li>
-<li>WAN and point-to-point links use the 203.0.113.0/24 RFC 5737 test network to avoid overlap with real public address space.</li>
-<li>Inter-VLAN routing is provided via router-on-a-stick using an integrated services router connected to an access switch via an 802.1Q trunk.</li>
-</ul>
-<hr>
-<h2 id="versioning--future-growth">Versioning &amp; Future Growth</h2>
-<p>This project follows a versioned implementation model to ensure stability and reinforce learning. Each version introduces new technologies or architectural changes without retroactively modifying prior versions. Planned future versions include:</p>
-<ul>
-<li>Migration to multilayer switching.</li>
-<li>Dynamic routing protocols.</li>
-<li>Redundancy and high availability.</li>
-<li>Centralized network services.</li>
-<li>Layer 2 and Layer 3 security controls.</li>
-<li>Multivendor network implementations using EVE-NG or GNS3.</li>
-</ul>
-<hr>
-<h2 id="documentation-approach">Documentation Approach</h2>
-<p>Each major implementation phase is documented as a milestone post. This approach creates a clear record of both technical progress and design decision-making over time. Milestone posts focus on:</p>
-<ul>
-<li>Design intent.</li>
-<li>Implementation details.</li>
-<li>Validation &amp; testing.</li>
-<li>Lessons learned.</li>
-</ul>
-<hr>
-<h2 id="closing-notes">Closing Notes</h2>
-<p>By starting with a simple architecture and layering complexity over time, the lab remains both educational and sustainable. The goal is not to build the most complex network possible, but to build one that clearly demonstrates understanding, decision-making, and growth.</p>
-<!--- COMMENT BOX --->
+
+| Interface | Description | Switchport Type | VLAN |
+| :----: | :----: | :----: | :----: |
+| F0/1 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/2 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/3 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/4 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/5 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/6 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/7 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/8 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/9 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/10 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/11 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/12 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/13 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/14 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/15 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/16 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/17 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/18 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/19 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/20 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/21 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/22 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/23 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| F0/24 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| G0/1 | Trunk to YESTMTDR1CR G0/1 | Trunk | 88 |
+| G0/2 | \*\*\*NOT IN USE\*\*\* | Access | 404 |
+| SVI 99 | Remote management | - | - |
+
+[### Patch Panel to Wall Mounts
+| Cable ID | Source Device | Source Port | Dest. Device | Dest. Port | Cable Type | Length | Color | Notes |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| - | - | - | - | - | - | - | - | - |
+]: #
+
+[### Copper Wall Mounts to Endpoints
+| Source Device | Dest. Device | MAC Address |
+| :---: | :---: | :---: |
+| - | - | - | - | - | - | - | - | - |
+]: #
+
+[### End-Devices
+| Device Name | OS | Services | MAC Address | IP Address | Default Gateway | DNS | VLAN |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+]: #
+
+### VLAN Segmentation
+| VLAN ID | Name | Purpose |
+| :---: | :---: | :---: |
+| 10 | DATA | End-user wired & wireless clients |
+| 20 | VOICE | VoIP services |
+| 99 | MGMT | Network device management |
+| 88 | NATIVE | Native VLAN for trunk links |
+| 404 | INACTIVE | Administratively disabled switch ports |
+
+### IP Addressing
+* Internal LAN networks use private IPv4 addressing from the 192.168.0.0/16 range. Individual VLANs are allocated discrete subnets for simplicity and clarity.
+* WAN and point-to-point links use the 203.0.113.0/24 RFC 5737 test network to avoid overlap with real public address space.
+* Inter-VLAN routing is provided via router-on-a-stick using an integrated services router connected to an access switch via an 802.1Q trunk.
+
+---
+
+## Versioning & Future Growth
+This project follows a versioned implementation model to ensure stability and reinforce learning. Each version introduces new technologies or architectural changes without retroactively modifying prior versions. Planned future versions include:
+* Migration to multilayer switching.
+* Dynamic routing protocols.
+* Redundancy and high availability.
+* Centralized network services.
+* Layer 2 and Layer 3 security controls.
+* Multivendor network implementations using EVE-NG or GNS3.
+
+---
+
+## Documentation Approach
+Each major implementation phase is documented as a milestone post. This approach creates a clear record of both technical progress and design decision-making over time. Milestone posts focus on:
+* Design intent.
+* Implementation details.
+* Validation & testing.
+* Lessons learned.
+
+---
+
+## Closing Notes
+By starting with a simple architecture and layering complexity over time, the lab remains both educational and sustainable. The goal is not to build the most complex network possible, but to build one that clearly demonstrates understanding, decision-making, and growth.
+
+<COMMENT BOX>
 <div class="commentbox"></div>
+
 <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
 <script>
   commentBox('5668915749322752-proj', {
@@ -1011,7 +657,9 @@ Testing results</p>
     subtextColor: '#ffffff',
     sortOrder: 'newest'
   });
-</script></div>
+</script>
+
+---></div>
     <div class="post__footer">
       
 
