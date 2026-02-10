@@ -144,5 +144,96 @@ Germany&lt;/p&gt;</description>
       
     </item>
     
+    <item>
+      <title></title>
+      <link>http://localhost:1313/mywebsite/portfolio/home_lab_network_project/configs/austtxhl1cr_20260131/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mywebsite/portfolio/home_lab_network_project/configs/austtxhl1cr_20260131/</guid>
+      
+        <description>&lt;h2 id=&#34;router-configuration&#34;&gt;Router Configuration&lt;/h2&gt;
+&lt;h3 id=&#34;basic-device-configuration&#34;&gt;Basic Device Configuration&lt;/h3&gt;
+&lt;p&gt;enable
+configure terminal
+hostname &lt;hostname&gt;
+enable secret &lt;password&gt;
+no ip domain-lookup
+line console 0
+logging synchronous
+exec-timeout &lt;minutes&gt;
+end
+clock set &amp;lt;hh:mm:ss Mmm DD YYYY&amp;gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/mywebsite/portfolio/home_lab_network_project/configs/austtxhl1xs_20260131/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mywebsite/portfolio/home_lab_network_project/configs/austtxhl1xs_20260131/</guid>
+      
+        <description>&lt;h2 id=&#34;switch-configuration&#34;&gt;Switch Configuration&lt;/h2&gt;
+&lt;h3 id=&#34;basic-device-configuration&#34;&gt;Basic Device Configuration&lt;/h3&gt;
+&lt;p&gt;enable
+configure terminal
+hostname &lt;hostname&gt;
+enable secret &lt;password&gt;
+no ip domain-lookup
+line console 0
+logging synchronous
+exec-timeout &lt;minutes&gt;
+end
+clock set &amp;lt;hh:mm:ss Mmm DD YYYY&amp;gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/mywebsite/portfolio/home_lab_network_project/configs/isp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mywebsite/portfolio/home_lab_network_project/configs/isp/</guid>
+      
+        <description>&lt;h2&gt;Google Router Configuration&lt;/h2&gt;
+&lt;pre&gt;
+&lt;code&gt;configure terminal
+hostname &lt;font color=indianred&gt;&lt;em&gt;&lt;strong&gt;hostname&lt;/strong&gt;&lt;/em&gt;&lt;/font&gt;
+interface &lt;interface&gt;
+description &lt;description&gt;
+ip address &lt;ip address&gt; &lt;subnet mask&gt;
+no shutdown
+interface &lt;interface&gt;
+description &lt;description&gt;
+ip address &lt;ip address&gt; &lt;subnet mask&gt;
+no shutdown&lt;/code&gt;
+&lt;/pre&gt;
+&lt;h2&gt;Google Switch Configuration&lt;/h2&gt;
+&lt;pre&gt;
+&lt;code&gt;configure terminal
+hostname &lt;hostname&gt;
+interface vlan &lt;vlan-id&gt;
+ip address &lt;ip address&gt; &lt;subnet mask&gt;
+no shutdown
+exit
+ip default-gateway &lt;ip address&gt;&lt;/code&gt;
+&lt;/pre&gt;
+&lt;h2&gt;Google Server Configuration&lt;/h2&gt;
+&lt;h3&gt;IP Information&lt;/h3&gt;
+&lt;li&gt;IP Address: 8.8.8.8&lt;/li&gt;
+&lt;li&gt;Subnet Mask: 255.255.255.0&lt;/li&gt;
+&lt;li&gt;Default Gateway: 8.8.8.1&lt;/li&gt;
+&lt;li&gt;DNS Server: 8.8.8.8&lt;/li&gt;
+&lt;h3&gt;DNS Information&lt;/h3&gt;
+&lt;li&gt;Go to the Services tab&lt;/li&gt;
+&lt;li&gt;DNS: On&lt;/li&gt;
+&lt;li&gt;Name: www.test.com&lt;/li&gt;
+&lt;li&gt;IP Address: 8.8.8.8&lt;/li&gt;
+&lt;li&gt;Click Add&lt;/li&gt;
+&lt;li&gt;Highlight the entry&lt;/li&gt;
+&lt;li&gt;Click Save&lt;/li&gt;</description>
+      
+    </item>
+    
   </channel>
 </rss>
