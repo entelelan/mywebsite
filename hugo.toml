@@ -55,3 +55,9 @@ localizedDates = false
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+#[params]
+  #[params.author]
+    #name = "Your Name"
+    #email = "you@example.com"
+
