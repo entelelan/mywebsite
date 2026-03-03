@@ -6,7 +6,18 @@
     <description>Recent content in Posts on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home Lab Network Project - Milestone 1</title>
+      <link>http://localhost:1313/mywebsite/post/milestone1/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mywebsite/post/milestone1/</guid>
+      
+        <description>Home Lab Network Project - Milestone 1</description>
+      
+    </item>
+    
     <item>
       <title>Personal Audit</title>
       <link>http://localhost:1313/mywebsite/post/personal_audit/</link>
